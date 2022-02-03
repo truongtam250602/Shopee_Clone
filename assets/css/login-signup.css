@@ -1,0 +1,376 @@
+
+
+/* Modal login%register */
+.modal {
+    
+}
+
+.modal__login {
+   }
+
+.nav__login {
+   display: flex;
+   align-items: center;
+   height: 84px;
+   position: relative;
+   top: 0;
+    right: 0;
+    left: 0;
+}
+
+.modal__login-header {
+   width: 1200px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+}
+
+.login-header__title {
+   display: flex;
+   align-items: center;
+   margin-left: 24px;
+    
+}
+
+.image-logo-login-header {
+   width: 12%;
+}
+
+.des__login {
+   font-size: 2.6rem;
+   width: 15%;
+   padding: 16px;
+   margin-top: 12px;
+   color: var(--text-color);
+}
+
+.modal__login-notify a {
+   font-size: 1.5rem;
+   text-decoration: none;
+   color: #f6432e;
+   margin-right: 24px;
+}
+
+.overflow__modal-body {
+   background-color: #ee4d2e;
+}
+
+.modal__login-body {
+   margin: 0 auto;
+   height: 600px;
+   width: 1040px;
+   position: relative;
+   background-image: url("https://cf.shopee.vn/file/f719d5901f18749ac20f97b76dc44a3a");
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+.login-body__box-login {
+   width: 400px;
+   height: 500px;
+   background-color: #fff;
+   border-radius: 10px;
+}
+
+.box-login__header {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   height: 22%;
+   padding: 22px 30px;
+}
+
+.des__login-box {
+   font-size: 2.2rem;
+}
+
+.box__login-header__qrcode {
+   font-size: 1.5rem;
+   font-weight: 400;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.qrcode__box-text {
+   padding: 11px 14px;
+   border: 2px solid #ee4d2e;
+   border-radius: 8px;
+   height: 58px;
+   width: 158px;
+   margin-right: 16px;
+   color: #f6432e;
+   z-index: 1;
+}
+
+.qrcode__box-text::after {
+position: absolute;
+   content: "";
+   width: 8px;
+   height: 8px;
+   transform: rotate(45deg);
+   border-top: 2px solid #f6432e;
+   border-right: 2px solid #f6432e;
+   right: calc(19% + 0.5px);
+   background-color: #fff;
+   z-index: 2;
+}
+
+.qrcode__icon-qr {
+   font-size: 4rem;
+   color: #ee4d2e;
+}
+.qrcode__icon-qr:hover {
+   cursor: pointer;
+}
+
+.box-login__body {
+   padding: 0 30px 0px 30px;
+}
+
+.login__body-btns-inputs {
+   list-style-type: none;
+   padding-left: 0;  
+}
+
+
+.modal__input{
+   width: 100%;
+   padding: 12px;
+   font-size: 1.4rem;
+   border-radius: 6px;
+   border: 1px solid #dbdbdb;
+   outline: none;
+}
+.modal__input:focus {
+   border-color: #ee4d2e;
+}
+
+::placeholder {
+   color: #ccc;
+   opacity: 1;
+}
+
+.desc-input__name-password {
+   font-size: 1.2rem;
+   margin-top: 5px;
+}
+
+.section__password {
+   position: relative;  
+   cursor: pointer;
+}
+
+.show-btn {
+   position: relative;
+   /* right: 4%;
+   top: 20%; */
+   font-size: 1.6rem;
+}
+.see-password {
+   position: absolute;
+   font-size: 1.6rem;
+   top: -28px;
+   left: 312px;
+   /* right: 0; */
+}
+.btn__login {
+   background-color: #ff6132;
+   color: #fff;
+   opacity: 0.8;
+}
+
+.btn__login:hover {
+   cursor: pointer;
+   opacity: 1;
+}
+.desc-btn__login{
+   padding: 5px 0;
+   display: flex;
+   justify-content: space-between;
+
+}
+.forget-sms {
+   font-size: 1.4rem;
+   text-decoration: none;
+   color: #0e6cd8;
+}
+
+.box-login-footer {
+position: relative;
+}
+
+.section__or-link {
+   color: #ccc;
+}
+
+.or__link {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 18px;
+}
+.or--link {
+   padding: 0 8px;
+   font-size: 1.4rem;
+}
+
+.modal__link-socials {
+   padding: 0 30px 30px 30px;
+   display: flex;
+   justify-content: space-between;
+   position: relative;  
+}
+
+.link-social {
+   flex: 1;
+   border: none;
+   font-size: 1.4rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 5px;
+   height: 4rem;
+   border-radius: 6px;
+   color: #fff; 
+}
+.link-social:hover{
+   cursor: pointer;
+}
+.section__btn-google {
+   background-color: #FF7F50	;
+}
+
+.section-btn-facebook {
+   background-color: #1777f2;
+   border: none;
+}
+
+.section-btn-apple {
+   background-color: rgba(0, 0, 0, 0.6);
+}
+.img-logo-google {
+   width: 30%;
+   margin-right: 4px;
+}
+
+.fa-facebook,
+.fa-apple {
+   font-size: 2.4rem;
+   margin-right: 4px;
+}
+
+.box-login__footer-remind {
+   width: 100%;
+   display: flex;
+   padding: 0 30px;
+   align-content: center;
+   justify-content: center;
+   font-size: 1.4rem;
+   color: #ccc;
+}
+
+.section__sigup-in-box {
+   color: #f7452e;
+   text-decoration: none;
+   padding: 0 8px;
+}
+
+.modal__login-footer {
+position: relative;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   align-items: flex-start;
+   width: 80%;
+   padding-top: 12px;
+   margin: auto;
+   padding-bottom: 36px;
+}
+
+.login-footer-support {
+   flex: 1;
+   padding: 5px;
+}
+.footer-support__header {
+   font-size: 1.2rem;
+   margin: 40px 0 20px 0;
+   font-weight: 500;
+   text-transform: uppercase;
+   color: #757575; 
+    
+}
+.footer-support__content {
+   display: flex;
+   align-content: stretch;
+   flex-direction: column;
+   font-size: 1.2rem;
+   color: #757575;
+}
+
+.support__content-types {
+   margin-bottom: 12px;
+}
+.support__content-types:hover {
+   cursor: pointer;
+   color: #ee4d2e;
+}
+
+.payment-menthods {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.payment-menthod {
+   width: 52px;
+   padding: 4px;
+}
+.icon-visa {
+height: 36px;
+}
+
+.transports-express {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.support-express {
+   width: 60px;
+   padding: 8px;
+}
+.section-icon-social {
+   display: flex;
+   align-items: center;
+   align-content: center;
+}
+.icon-social {
+   font-size: 2.2rem;
+   margin-right: 6px;
+   margin-bottom: 8px;
+}
+
+.desc-icon-social {
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.2rem;
+}
+.desc-icon-social:hover {
+   cursor: pointer;
+   color: #ee4d2e;
+}
+
+.img-app-download {
+   width: 9.2rem;
+   margin-bottom: 8px;
+}
+
+.img-app-download:hover {
+   cursor: pointer;
+   color: #ee4d2e;
+}
+
+/* End modal login & register */
+
